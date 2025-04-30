@@ -23,10 +23,30 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: #5000ca;
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+//a:hover {
+//  color: #5000ca;
+//  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+//}
+a {
+  color: inherit;
+
+  &:hover {
+    color: #5000ca;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+
+    svg path {
+      color: #5000ca;
+      fill: currentColor;
+    }
+  }
+
+  svg {
+    path {
+      transition: color .15s ease-in-out, fill .15s ease-in-out;
+    }
+  }
 }
+
 
 p, a, h1, h2, h3, h4, h5, label, button {
   color: white;

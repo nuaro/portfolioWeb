@@ -3,6 +3,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
 import avatar from "../assets/images/avatar.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGitlab } from '@fortawesome/free-brands-svg-icons';
+
 
 function Main() {
 
@@ -16,6 +19,9 @@ function Main() {
           <div className="social_icons">
             <a href="https://github.com/nuaro" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/hernan-antonio-zambrano-a25b468/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://gitlab.com/nuaro" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faGitlab} />
+            </a>
           </div>
           <h1>Hernan Zambrano</h1>
           <p>Software Engineer</p>
@@ -23,6 +29,9 @@ function Main() {
           <div className="mobile_social_icons">
             <a href="https://github.com/nuaro" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/hernan-antonio-zambrano-a25b468/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+            <a href="https://gitlab.com/nuaro" target="_blank" rel="noreferrer">
+              <FontAwesomeIcon icon={faGitlab} />
+            </a>
           </div>
         </div>
       </div>
