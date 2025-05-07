@@ -24,7 +24,7 @@ function Main() {
             </a>
           </div>
           <h1>Hernan Zambrano</h1>
-          <p>Software Engineer</p>
+          <p>Software Engineer / Master's Degree in Information Security</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/nuaro" target="_blank" rel="noreferrer"><GitHubIcon/></a>
